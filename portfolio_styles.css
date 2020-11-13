@@ -24,49 +24,43 @@ header{
     align-items: center;
 }
 
-#logo{
-    max-width: 70px;
-}
-
-#heart{
-    max-width: 35px;
-    cursor: pointer;
-}
-
-#arrow{
-    max-width: 35px;
-    max-height: 35px;
-    margin-left: 1em;
-    cursor: pointer;
-}
-
 .container iframe{
     height: 90vh;
 }
 
-
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+@media only screen and (max-height : 320px) {
+    #logo{
+        max-width: 25px;
+    }
+    #heart{
+        max-width: 15px;
+        cursor: pointer;
+    }
+    #arrow{
+        max-width: 15px;
+        max-height: 15px;
+        margin-left: 1em;
+        cursor: pointer;
+    }  
 }
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-
+@media only screen and (min-height : 321px) {
+    #logo{
+        max-width: 40px;
+    }
+    #heart{
+        max-width: 15px;
+        cursor: pointer;
+    }
+    #arrow{
+        max-width: 15px;
+        max-height: 15px;
+        margin-left: 1em;
+        cursor: pointer;
+    }  
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
-
-}
-
-/* Extra Small Devices, Phones */ 
-@media only screen and (max-width : 480px) {
-
-}
-
-/* Custom, iPhone Retina */ 
-@media only screen and (max-width : 320px) {
+@media only screen and (min-height : 480px) {
     #logo{
         max-width: 50px;
     }
@@ -79,20 +73,23 @@ header{
         max-height: 25px;
         margin-left: 1em;
         cursor: pointer;
-    }
+    }  
 }
 
-@media only screen and (max-height : 480px) {
+@media only screen and (min-height : 768px) {
+    header{
+        height: 80px;
+    }
     #logo{
-        max-width: 30px;
+        max-width: 70px;
     }
     #heart{
-        max-width: 15px;
+        max-width: 35px;
         cursor: pointer;
     }
     #arrow{
-        max-width: 15px;
-        max-height: 15px;
+        max-width: 35px;
+        max-height: 35px;
         margin-left: 1em;
         cursor: pointer;
     }  
