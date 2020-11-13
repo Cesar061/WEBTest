@@ -81,3 +81,19 @@ header{
         cursor: pointer;
     }
 }
+
+@media only screen and (max-height : 320px) {
+    #logo{
+        max-width: 30px;
+    }
+    #heart{
+        max-width: 15px;
+        cursor: pointer;
+    }
+    #arrow{
+        max-width: 15px;
+        max-height: 15px;
+        margin-left: 1em;
+        cursor: pointer;
+    }  
+}
