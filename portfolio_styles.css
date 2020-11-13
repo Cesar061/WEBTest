@@ -82,7 +82,7 @@ header{
     }
 }
 
-@media only screen and (max-height : 320px) {
+@media only screen and (max-height : 480px) {
     #logo{
         max-width: 30px;
     }
