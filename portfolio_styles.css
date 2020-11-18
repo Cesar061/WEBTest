@@ -1,4 +1,4 @@
-*,::after,*::before{
+*,*::after,*::before{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -58,6 +58,7 @@ header{
     #heart{
         max-width: 15px;
         cursor: pointer;
+        margin: 0 3px;
     }
     #arrow{
         max-width: 15px;
@@ -101,3 +102,4 @@ header{
         cursor: pointer;
     }  
 }
+
