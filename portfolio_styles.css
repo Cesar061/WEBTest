@@ -39,7 +39,7 @@ header{
     #logo{
         max-width: 25px;
     }
-    #heart{
+    .heart{
         max-width: 15px;
         cursor: pointer;
     }
@@ -55,7 +55,7 @@ header{
     #logo{
         max-width: 40px;
     }
-    #heart{
+    .heart{
         max-width: 15px;
         cursor: pointer;
         margin: 0 3px;
@@ -72,7 +72,7 @@ header{
     #logo{
         max-width: 50px;
     }
-    #heart{
+    .heart{
         max-width: 25px;
         cursor: pointer;
     }
@@ -91,7 +91,7 @@ header{
     #logo{
         max-width: 70px;
     }
-    #heart{
+    .heart{
         max-width: 35px;
         cursor: pointer;
     }
